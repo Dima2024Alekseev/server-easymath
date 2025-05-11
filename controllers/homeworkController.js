@@ -1,7 +1,7 @@
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
-const Homework = require('../models/Homework');
+const Homework = require('../models/homework');
 
 // Настройка multer для сохранения файлов
 const storage = multer.diskStorage({
